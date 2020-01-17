@@ -1,0 +1,182 @@
+{
+  "main": {
+    "name":"Devendra Singh",
+    "occupation":"Deputy Manager at NMDC Ltd (PSU)",
+    "description":"I am  a self taught web developer, very passionate and persistent learner, who would like to keep oneself updated with the latest technologies and would like to work upon them. Interested in working on ambitious projects with positive people.",
+    "image":"profilepic.jpg",
+    "bio":"Web application developer (MERN stack) with a flair for creating elegant solutions within the time. Technically sound professional with over 5+ years of experience in the area of software development, designing and developing user interfaces, debugging and deploying application. Self-motivated and constant learner able to create responsive web application from scratch till final deployment. capable of working in small, medium and large teams.",
+    "contactmessage":"I am intersted in job opportunities - especially ambitious projects. However, if you have other question or request, you may contact me at details below.",
+    "email": "devendra.fe@gmail.com, devendra.616@gmail.com",
+    "phone": "+91-8359895218",
+    "address":{
+      "street":"Jal Nigam Road, Balaganj Chowraha",
+      "city":"Lucknow",
+      "state":"Uttar Pradesh",
+      "zip": "226003"
+    },
+    "website": "http://www.zaroorana.com",
+    "resumedownload":"http://www.zaroorana.com/resume",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/DevSingh616",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/DevNmdc",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/devendrahbti/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Devendra616",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{    
+    "education":[
+      {
+        "school":"HBTI, Kanpur",
+        "degree":"MCA",
+        "graduated":"2009-2012",
+        "description":"Completed the masters degree with 74.23%."
+      },
+      {
+        "school":"Lucknow University",
+        "degree":"Bsc. Computer Science",
+        "graduated":"2005-2008",
+        "description":"Graduated with 60.67%."
+      },
+	  {
+        "school":"Lucknow University",
+        "degree":"Bsc. Computer Science",
+        "graduated":"2005-2008",
+        "description":"Graduated with 60.67%."
+      },
+	  {
+        "school":"Lucknow University",
+        "degree":"Bsc. Computer Science",
+        "graduated":"2005-2008",
+        "description":"Graduated with 60.67%."
+      }
+    ],
+    "work":[
+      {
+        "company":"NMDC Ltd (PSU), Chhattisgardh",
+        "title":"Deputy Manager (C&IT)",
+        "years":"September 2015 - Present",
+        "description":["Designing, development, and implementation of Web Applications based on user requirements.",
+        "Maintaining and improving existing applications.",
+        "Development and up-gradation of local website(intranet).",
+        "Attending user's issues on HRMS, IMS, FAS, ARS, LIMS.",
+        "Applications Developed: File Tracking System, Hourly Production, Incentive-Package, HRMSDashboard, Quarter Allotment System, Complaint Recording System, Production Package, Hospital Pathology Sample Recording, GST Invoice Generation."
+        ]
+      },	  
+      {
+        "company":"FlexiEle Consulting, Gurgaon",
+        "title":"Associate Developer",
+        "years":"February 2014 - January 2015",
+        "description":["Worked on internal application which is a 3 tier structure based on Zend Framework.",
+        "Fixed bugs on existing applications and implemented new features in some applications as guided by the Architect"
+          ]
+      },
+	  {
+        "company":"IBM India Pvt Ltd, Bangalore",
+        "title":"Software Developer",
+        "years":"July 2012 - January 2014",
+        "description":[
+          "Debugging Java codes, Documentation of business processes and troubleshooting solutions.",
+          "Had written shell script running on servers like passwordless authentication.",
+          "Basic Linux administration tasks (user-id creation, password reset, server-restart, software installations)."
+        ]
+      }
+    ],
+    "skillmessage":"Recruiters may hire me based on but not limited to below skills:",
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"25%"
+      },
+      {
+        "name":"Git",
+        "level":"40%"
+      },
+      {
+        "name":"Bootstrap",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"30%"
+      },
+      {
+        "name":"NodeJs",
+        "level":"30%"
+      },
+      {
+        "name":"Javascript",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Zaroorana",
+        "category":"My website for online invitation",
+        "image":"invitation.jpeg",
+        "url":"https://www.zaroorana.com"
+      },
+      {
+        "title":"Crown Clothing",
+        "category":"A react based ecommerce website for clothing",
+        "image":"crwn-clothing.jpeg",
+        "url":"https://crwn-react-clothing.herokuapp.com/"
+      },
+      {
+        "title":"Patapat Clone",
+        "category":"Keyboard and sound game for fun",
+        "image":"patapat.jpeg",
+        "url":"https://patatap-c.herokuapp.com/circles.html"
+      },
+      {
+        "title":"Yelpcamp Website",
+        "category":"A node based camping description application",
+        "image":"yelpcamp.jpeg",
+        "url":"https://yelpcamp-camp.herokuapp.com/"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I know Devendra from my college days. He was the one of the brightest student in my class. He has very good knowledge in core subjects.He is very fast learner as well. He is self motivated and always ready to help others in any aspect. He will be exceptional team player in any organization. I wish him a bright future ahead. All the very best.",
+        "user":"Arti Tripathi - Consultant at EY"
+      },
+      {
+        "text":"That Devendra must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
