@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
+import $ from 'jquery';
 
 class Contact extends Component {
+   
   render() {
 
     if(this.props.data){
@@ -13,6 +16,34 @@ class Contact extends Component {
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
+    
+    
+
+    function sendEmail(e) {
+      e.preventDefault();
+      $('#image-loader').fadeIn();
+
+      const SERVICE_ID = `${process.env.REACT_APP_SERVICE_ID}`;
+      const TEMPLATE_ID = `${process.env.REACT_APP_TEMPLATE_ID}`;
+      const USER_ID = `${process.env.REACT_APP_USER_ID}`;
+      
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+        .then((result) => {
+            console.log(result.text);
+               $('#image-loader').fadeOut();
+               $('#message-warning').hide();
+               $('#contactForm').fadeOut();
+               $('#message-success').fadeIn();
+        }, (error) => {
+            console.log(error.text);
+               $('#image-loader').fadeOut();
+               $('#message-warning').html(error.text);
+	            $('#message-warning').fadeIn();
+        });
+
+        return false;
+    }   
+
 
     return (
       <section id="contact">
@@ -36,31 +67,33 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={sendEmail}  id="contactForm" name="contactForm">
 					<fieldset>
-
+               
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactName" name="user_name" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="user_email" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="user_subject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="8" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                  
+                  
+                  <button className="submit" type="submit">Send</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -85,6 +118,10 @@ class Contact extends Component {
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
 					   </p>
+                  <h4>Mail Me</h4>
+                  <p className="address">
+                     {email}
+                  </p>
 				   </div>
 
                <div className="widget widget_tweets">
@@ -94,14 +131,14 @@ class Contact extends Component {
                         <span>
                         Few months before I read a small book named “Who Moved My Cheese?”, written by Dr Spencer Johnson.
                         I came to know about it from the good reads of Sandeep Maheshwari’s recommended books.
-                        Read further...<a href="https://www.linkedin.com/pulse/who-moved-my-cheese-devendra-singh/">shorturl.at/ckyO0</a>
+                        Read further...<a href="https://www.linkedin.com/pulse/who-moved-my-cheese-devendra-singh/" target='_blank' rel="noopener noreferrer">shorturl.at/ckyO0</a>
                         </span>
                         
                      </li>
                      <li>
                         <span>
                         Everyone reading this would surely have provided presentation at least once in their life. We have often attended presentations given by others and 
-                        Read further...<a href="https://www.linkedin.com/pulse/how-give-presentation-better-way-devendra-singh/">shorturl.at/bwQS5</a>
+                        Read further...<a href="https://www.linkedin.com/pulse/how-give-presentation-better-way-devendra-singh/" target='_blank' rel="noopener noreferrer">shorturl.at/bwQS5</a>
                         </span>
                         
                      </li>
