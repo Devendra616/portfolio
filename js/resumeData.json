@@ -2,7 +2,7 @@
   "main": {
     "name":"Devendra Singh",
     "occupation":"Deputy Manager at NMDC Ltd (PSU)",
-    "description":"I am  a self taught web developer, very passionate and persistent learner, who would like to keep oneself updated with the latest technologies and would like to work upon them. Interested in working on ambitious projects with positive people.",
+    "description":"I am  a self taught web developer, very passionate and persistent learner, who would like to keep oneself updated with the latest technologies and would like to work upon them. I am not constrained by technology stacks and am open to learn and move to new technology stacks with relative ease. Interested in working on ambitious projects with positive people.",
     "image":"profilepic.jpg",
     "bio":"Web application developer (MERN stack) with a flair for creating elegant solutions within the time. Technically sound professional with over 5+ years of experience in the area of software development, designing and developing user interfaces, debugging and deploying application. Self-motivated and constant learner able to create responsive web application from scratch till final deployment. capable of working in small, medium and large teams.",
     "contactmessage":"I am intersted in job opportunities - especially ambitious projects. However, if you have other question or request, you may contact me at details below.",
@@ -137,7 +137,7 @@
     "projects": [
       {
         "title":"Zaroorana",
-        "category":"My website for online invitation",
+        "category":"My website for online invitation. Work in progress will be live soon",
         "image":"invitation.jpeg",
         "url":"https://www.zaroorana.com"
       },
