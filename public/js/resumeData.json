@@ -2,7 +2,7 @@
   "main": {
     "name":"Devendra Singh",
     "occupation":"Deputy Manager at NMDC Ltd (PSU)",
-    "description":"I am  a self taught web developer, very passionate and persistent learner, who would like to keep oneself updated with the latest technologies and would like to work upon them. Interested in working on ambitious projects with positive people.",
+    "description":"I am  a self taught web developer, very passionate and persistent learner, who would like to keep oneself updated with the latest technologies and would like to work upon them. I am not constrained by technology stacks and am open to learn and move to new technology stacks with relative ease. Interested in working on ambitious projects with positive people.",
     "image":"profilepic.jpg",
     "bio":"Web application developer (MERN stack) with a flair for creating elegant solutions within the time. Technically sound professional with over 5+ years of experience in the area of software development, designing and developing user interfaces, debugging and deploying application. Self-motivated and constant learner able to create responsive web application from scratch till final deployment. capable of working in small, medium and large teams.",
     "contactmessage":"I am intersted in job opportunities - especially ambitious projects. However, if you have other question or request, you may contact me at details below.",
@@ -136,10 +136,10 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Zaroorana",
-        "category":"My website for online invitation",
-        "image":"invitation.jpeg",
-        "url":"https://www.zaroorana.com"
+        "title":"Chat Buzz",
+        "category":"Multiuser chat application using socket and nodejs",
+        "image":"chatapp.png",
+        "url":"https://chat-fizz.herokuapp.com/"
       },
       {
         "title":"Crown Clothing",
@@ -158,12 +158,6 @@
         "category":"A node based camping description application",
         "image":"yelpcamp.jpeg",
         "url":"https://yelpcamp-camp.herokuapp.com/"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },
@@ -174,8 +168,8 @@
         "user":"Arti Tripathi - Consultant at EY"
       },
       {
-        "text":"That Devendra must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Devendra was a student of a course I manage called, \"The Web Developer Bootcamp\". He excelled in the course then turned around and used his newfound skills to help others with their learning. Devendra has displayed excellent problem solving and communication skills. I believe he will prove to be a valuable asset to any developer team.",
+        "user":"Ian Schoonover - Online Web Development Instructor (DevSprout)"
       }
     ]
   }
