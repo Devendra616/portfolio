@@ -75,7 +75,7 @@
         "Maintaining and improving existing applications.",
         "Development and up-gradation of local website(intranet).",
         "Attending user's issues on HRMS, IMS, FAS, ARS, LIMS.",
-        "Applications Developed: File Tracking System, Hourly Production, Incentive-Package, HRMSDashboard, Quarter Allotment System, Complaint Recording System, Production Package, Hospital Pathology Sample Recording, GST Invoice Generation."
+        "Applications Developed: IT Statment, File Tracking System, Hourly Production, Incentive-Package, HRMSDashboard, Quarter Allotment System, Complaint Recording System, Production Package, Hospital Pathology Sample Recording, GST Invoice Generation."
         ]
       },	  
       {
@@ -136,34 +136,32 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Zaroorana",
-        "category":"My website for online invitation. Work in progress will be live soon",
-        "image":"invitation.jpeg",
-        "url":"https://www.zaroorana.com"
+        "title":"Chat Buzz",
+        "description":"A multiuser chat application with private rooms and notifications",
+        "tech":"socket.io, NodeJs, Express, HTML5, Bootstrap",
+        "image":"chatapp.png",
+        "url":"https://chat-fizz.herokuapp.com/"
       },
       {
         "title":"Crown Clothing",
-        "category":"A react based ecommerce website for clothing",
+        "description":"A react based e-commerce website for clothing",
+        "tech":"ReactJs, Redux, Firebase, html5",
         "image":"crwn-clothing.jpeg",
         "url":"https://crwn-react-clothing.herokuapp.com/"
       },
       {
         "title":"Patapat Clone",
-        "category":"Keyboard and sound game for fun",
+        "description":"Keyboard and sound game for fun",
+        
         "image":"patapat.jpeg",
         "url":"https://patatap-c.herokuapp.com/circles.html"
       },
       {
         "title":"Yelpcamp Website",
-        "category":"A node based camping description application",
+        "description":"A node based camping description application",
+        "tech":"NodeJs, Express, Bootstrap, HTML5",
         "image":"yelpcamp.jpeg",
         "url":"https://yelpcamp-camp.herokuapp.com/"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },
