@@ -136,6 +136,13 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Universe Tetris",
+        "description":"A vanilla JS Tetris game on browser can be played using keyboard",
+        "tech":"Javascript, FontAwesome, HTML5, Bootstrap",
+        "image":"universe-tetris.png",
+        "url":"https://devendra616.github.io/tetris-universe/"
+      },      
+      {
         "title":"Chat Buzz",
         "description":"A multiuser chat application with private rooms and notifications",
         "tech":"socket.io, NodeJs, Express, HTML5, Bootstrap",
@@ -162,6 +169,13 @@
         "tech":"NodeJs, Express, Bootstrap, HTML5",
         "image":"yelpcamp.jpeg",
         "url":"https://yelpcamp-camp.herokuapp.com/"
+      },
+      {
+        "title":"React Native Jobs",
+        "description":"Search Jobs in your area, filter your jobs and apply for it.",
+        "tech":"React Native, react native maps, navigation, facebook authentication, Github jobs API",
+        "image":"rn-jobs.png",
+        "url":"https://expo.io/@devsingh/rn-jobs"
       }
     ]
   },
